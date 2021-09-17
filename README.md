@@ -1,4 +1,4 @@
-# porter-update-action
+# porter-run-job-action
 
 This Github action triggers a job run for a job that has been deployed on Porter.
 
@@ -6,10 +6,8 @@ This Github action triggers a job run for a job that has been deployed on Porter
 
 ```yaml
 steps:
-  - name: Checkout code
-    uses: actions/checkout@v2.3.4
   - name: Run Porter job
-    uses: porter-dev/porter-update-action@v0.1.0
+    uses: porter-dev/porter-run-job-action@v0.1.0
     with:
       job: job-name
       cluster: 1234
