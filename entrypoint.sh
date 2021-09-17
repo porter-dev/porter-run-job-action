@@ -15,4 +15,4 @@ echo '
 paused: false
 ' > values-job.yaml
 
-porter update --app "$INPUT_JOB" --namespace "$INPUT_NAMESPACE" --values ./values-job.yaml
+porter update config --app "$INPUT_JOB" --namespace "$INPUT_NAMESPACE" --values ./values-job.yaml
