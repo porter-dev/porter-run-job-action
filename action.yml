@@ -1,5 +1,5 @@
-name: Update Porter App
-description: Update Porter App
+name: Run Porter Job
+description: Run Porter Job
 inputs:
   job:
     description: name of job
